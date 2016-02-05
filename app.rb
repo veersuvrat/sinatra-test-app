@@ -7,4 +7,6 @@ class MyApp < Sinatra::Base
   
   get '/nice' do
     "<!DOCTYPE html><html><head></head><body><h2>This is pretty cool. From nice url.</h2></body></html>"
+  end
+
 end
